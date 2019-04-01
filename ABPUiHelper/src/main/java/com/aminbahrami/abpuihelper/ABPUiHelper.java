@@ -60,7 +60,7 @@ public class ABPUiHelper
 			}
 			catch(Exception e)
 			{
-				Log.e("ABPUiHelper","Error on Field: "+field.getName()+" with type "+field.getType().getCanonicalName());
+				Log.e("UiHelper","Error on Field: "+field.getName()+" with type "+field.getType().getCanonicalName());
 			}
 		}
 	}
